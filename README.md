@@ -10,18 +10,19 @@ A PyTorch implementation of the Bert-base relation extractor for special cargo d
 ## Requirements
 Requirements: Python (3.6+), PyTorch (1.2.0+), Spacy (2.1.8+)  
 
-Pre-trained BERT model of HuggingFace.co (https://huggingface.co)   
+Pre-trained BERT model of [HuggingFace.co](https://huggingface.co)   
 Code structure adopted from:
 [anago](https://github.com/Hironsan/anago)
 
 
 
+## Methodology
 
+I developed a novel hierarchical model with a combination of three different attention-based Natural Language Processing (NLP) models that embeds simple tasks in the low levels of the hierarchy and more complex tasks in the high-level of the hierarchy. The architecture of the attention-based hierarchical multi-task relation representation model for multi-class relation classification is shown in the figure below. The hierarchical multi-task architecture is trained using domain-specific data and used as a based model and feature extractor for the multi-class classifier.
 
-
-
-
-
+<p align="center">
+<img src="https://github.com/VahidehReshadat/SCRE/blob/master/images/Presentation2-2-2.png" alt="overview of HTML" width="400"/>
+</p>
 
 **Automatic Knowledge Acquisition for the Special Cargo Services Domain with Unsupervised Entity and Relation Extraction**
 
