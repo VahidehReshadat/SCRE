@@ -1,14 +1,27 @@
-# SCRE : Special Cargo Relation Extractor 
+# SCRE : Special Cargo Relation Extractor using a hierarchical attention-based multi-task architecture 
 
-SCRE is 
+SCRE is a relation representation model proposed using a hierarchical attention-based multi-task architecture that achieves reasonable performance with limited domain-specific training data. 
 
-The code is part of our paper ["Relation Representation Learning for Special Cargo Ontology"](https://scholar.google.com/citations?user=DNUz3o4AAAAJ&hl=en&authuser=1) that we proposed an ontology population pipeline for the special cargo domain, and as part of the ontology population task, we investigated how to build an efficient information extraction model from low-resource domains based on available domain data for industry use cases. For this purpose, a model is designed for extracting and classifying instances of different relation types between each concept pair.
+The code is part of our paper ["Relation Representation Learning for Special Cargo Ontology"](https://scholar.google.com/citations?user=DNUz3o4AAAAJ&hl=en&authuser=1) that we proposed an ontology population pipeline for the special cargo domain, and as part of the ontology population task, we investigated how to build an efficient information extraction model from low-resource domains based on available domain data in the special cargo transportation domain. For this purpose, a model is designed for extracting and classifying instances of different relation types between each concept pair.
+
+## Overview
+A PyTorch implementation of the Bert-base relation extractor for special cargo domain 
+
+## Requirements
+Requirements: Python (3.6+), PyTorch (1.2.0+), Spacy (2.1.8+)  
+
+Pre-trained BERT model of HuggingFace.co (https://huggingface.co)   
+Code structure adopted from:
+[anago](https://github.com/Hironsan/anago)
 
 
 
-# `KArgen` - Knowledge Acquisition Generalization with Multi-task Learning
 
-`KArgen` is the generalization implementation for my Master's Thesis:
+
+
+
+
+
 
 **Automatic Knowledge Acquisition for the Special Cargo Services Domain with Unsupervised Entity and Relation Extraction**
 
