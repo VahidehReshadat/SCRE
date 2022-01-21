@@ -1,3 +1,11 @@
+# SCRE : Special Cargo Relation Extractor 
+
+SCRE is 
+
+The code is part of our paper ["Relation Representation Learning for Special Cargo Ontology"](https://scholar.google.com/citations?user=DNUz3o4AAAAJ&hl=en&authuser=1) that we proposed an ontology population pipeline for the special cargo domain, and as part of the ontology population task, we investigated how to build an efficient information extraction model from low-resource domains based on available domain data for industry use cases. For this purpose, a model is designed for extracting and classifying instances of different relation types between each concept pair.
+
+
+
 # `KArgen` - Knowledge Acquisition Generalization with Multi-task Learning
 
 `KArgen` is the generalization implementation for my Master's Thesis:
