@@ -24,10 +24,9 @@ I developed a novel hierarchical model with a combination of three different att
 <img src="https://github.com/VahidehReshadat/SCRE/blob/master/images/Presentation2-2-2.png" alt="overview of HTML" width="400"/>
 </p>
 
-**Dataset
+**Dataset**
 
 data: The training set was created automatically (for more information see ["Relation Representation Learning for Special Cargo Ontology"](https://scholar.google.com/citations?user=DNUz3o4AAAAJ&hl=en&authuser=1)). All datasets for Name Entity Recognition (NER)/Entity Extraction (EE) and Relation Extraction (RE) in CONLL format. 
-
 
 This repository contains the following folders:
 
@@ -37,7 +36,7 @@ This repository contains the following folders:
 * online_rel: test set 2 (online documents, based on HTML/PDF excerpts)
 * crf: CRF layer implementation for Keras, based on [keras-contrib](https://github.com/keras-team/keras-contrib)
 * models: model structure and wrapper for simplified Hiearchical Multi-task Learning from [hmtl](https://github.com/huggingface/hmtl)
-* preprocessing.py: preprocessing pipeline for sequential deep learning model
+* preprocessing: preprocessing pipeline for sequential deep learning model
 * trainer: training routine for KArgen model, including callbacks.
-* main: example of KArgen training and evaluation routine, including saving/loading models.
+* main: example of SCRE training and evaluation routine, including saving/loading models.
 * infer: example of extraction with the trained models, visualization with [displaCy](https://explosion.ai/demos/displacy)
